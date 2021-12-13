@@ -7,6 +7,7 @@
 	<meta name="description" content="Documentation for Theia TypeDoc">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
 </head>
 <body>
 <header>
@@ -38,8 +39,6 @@
 							</div>
 							<input type="checkbox" id="tsd-filter-inherited" checked />
 							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
-							<input type="checkbox" id="tsd-filter-only-exported" />
-							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
 						</div>
 					</div>
 					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
@@ -51,7 +50,7 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../globals.html">Globals</a>
+					<a href="../modules.html">Theia TypeDoc</a>
 				</li>
 				<li>
 					<a href="../modules/callhierarchy.html">callhierarchy</a>
@@ -79,11 +78,24 @@
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="callhierarchy.callhierarchyserviceprovider-1.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
 						<section class="tsd-index-section tsd-is-private-protected">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="callhierarchy.callhierarchyserviceprovider-1.html#contributions" class="tsd-kind-icon">contributions</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="callhierarchy.callhierarchyserviceprovider-1.html#ondidchangeemitter" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Emitter</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="callhierarchy.callhierarchyserviceprovider-1.html#services" class="tsd-kind-icon">services</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="callhierarchy.callhierarchyserviceprovider-1.html#ondidchange" class="tsd-kind-icon">on<wbr>Did<wbr>Change</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -93,9 +105,27 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="callhierarchy.callhierarchyserviceprovider-1.html#get" class="tsd-kind-icon">get</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="callhierarchy.callhierarchyserviceprovider-1.html#init" class="tsd-kind-icon">init</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="callhierarchy.callhierarchyserviceprovider-1.html#remove" class="tsd-kind-icon">remove</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="callhierarchy.callhierarchyserviceprovider-1.html#score" class="tsd-kind-icon">score</a></li>
 							</ul>
 						</section>
 					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Call<wbr>Hierarchy<wbr>Service<wbr>Provider<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="callhierarchy.callhierarchyserviceprovider-1.html" class="tsd-signature-type" data-tsd-kind="Class">CallHierarchyServiceProvider</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="callhierarchy.callhierarchyserviceprovider-1.html" class="tsd-signature-type" data-tsd-kind="Class">CallHierarchyServiceProvider</a></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-private-protected">
@@ -103,22 +133,52 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 					<a name="contributions" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> contributions</h3>
-					<div class="tsd-signature tsd-kind-icon">contributions<span class="tsd-signature-symbol">:</span> <a href="../interfaces/core.contributionprovider-1.html" class="tsd-signature-type">ContributionProvider</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/callhierarchy.callhierarchyservice-1.html" class="tsd-signature-type">CallHierarchyService</a><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">contributions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ContributionProvider</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/callhierarchy/src/browser/callhierarchy-service.ts#L41">packages/callhierarchy/src/browser/callhierarchy-service.ts:41</a></li>
+							<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/callhierarchy/src/browser/callhierarchy-service.ts#L40">packages/callhierarchy/src/browser/callhierarchy-service.ts:40</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="ondidchangeemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Change<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Emitter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Emitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/callhierarchy/src/browser/callhierarchy-service.ts#L42">packages/callhierarchy/src/browser/callhierarchy-service.ts:42</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
 					<a name="services" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> services</h3>
-					<div class="tsd-signature tsd-kind-icon">services<span class="tsd-signature-symbol">:</span> <a href="../interfaces/callhierarchy.callhierarchyservice-1.html" class="tsd-signature-type">CallHierarchyService</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
+					<div class="tsd-signature tsd-kind-icon">services<span class="tsd-signature-symbol">:</span> <a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/callhierarchy/src/browser/callhierarchy-service.ts#L43">packages/callhierarchy/src/browser/callhierarchy-service.ts:43</a></li>
+							<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/callhierarchy/src/browser/callhierarchy-service.ts#L47">packages/callhierarchy/src/browser/callhierarchy-service.ts:47</a></li>
 						</ul>
 					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="ondidchange" class="tsd-anchor"></a>
+					<h3>on<wbr>Did<wbr>Change</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> onDidChange<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Event</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/callhierarchy/src/browser/callhierarchy-service.ts#L43">packages/callhierarchy/src/browser/callhierarchy-service.ts:43</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Event</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
@@ -127,22 +187,22 @@
 					<a name="add" class="tsd-anchor"></a>
 					<h3>add</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">add<span class="tsd-signature-symbol">(</span>service<span class="tsd-signature-symbol">: </span><a href="../interfaces/callhierarchy.callhierarchyservice-1.html" class="tsd-signature-type">CallHierarchyService</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.disposable-1.html" class="tsd-signature-type">Disposable</a></li>
+						<li class="tsd-signature tsd-kind-icon">add<span class="tsd-signature-symbol">(</span>service<span class="tsd-signature-symbol">: </span><a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Disposable</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/callhierarchy/src/browser/callhierarchy-service.ts#L57">packages/callhierarchy/src/browser/callhierarchy-service.ts:57</a></li>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/callhierarchy/src/browser/callhierarchy-service.ts#L64">packages/callhierarchy/src/browser/callhierarchy-service.ts:64</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>service: <a href="../interfaces/callhierarchy.callhierarchyservice-1.html" class="tsd-signature-type">CallHierarchyService</a></h5>
+									<h5>service: <a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="../modules/core.disposable-1.html" class="tsd-signature-type">Disposable</a></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Disposable</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -150,13 +210,13 @@
 					<a name="get" class="tsd-anchor"></a>
 					<h3>get</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">get<span class="tsd-signature-symbol">(</span>languageId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/callhierarchy.callhierarchyservice-1.html" class="tsd-signature-type">CallHierarchyService</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<span class="tsd-signature-symbol">(</span>languageId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, uri<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">default</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/callhierarchy/src/browser/callhierarchy-service.ts#L50">packages/callhierarchy/src/browser/callhierarchy-service.ts:50</a></li>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/callhierarchy/src/browser/callhierarchy-service.ts#L54">packages/callhierarchy/src/browser/callhierarchy-service.ts:54</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -165,10 +225,10 @@
 									<h5>languageId: <span class="tsd-signature-type">string</span></h5>
 								</li>
 								<li>
-									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+									<h5>uri: <span class="tsd-signature-type">default</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="../interfaces/callhierarchy.callhierarchyservice-1.html" class="tsd-signature-type">CallHierarchyService</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -182,7 +242,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/callhierarchy/src/browser/callhierarchy-service.ts#L46">packages/callhierarchy/src/browser/callhierarchy-service.ts:46</a></li>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/callhierarchy/src/browser/callhierarchy-service.ts#L50">packages/callhierarchy/src/browser/callhierarchy-service.ts:50</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -193,22 +253,51 @@
 					<a name="remove" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> remove</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-						<li class="tsd-signature tsd-kind-icon">remove<span class="tsd-signature-symbol">(</span>service<span class="tsd-signature-symbol">: </span><a href="../interfaces/callhierarchy.callhierarchyservice-1.html" class="tsd-signature-type">CallHierarchyService</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">remove<span class="tsd-signature-symbol">(</span>service<span class="tsd-signature-symbol">: </span><a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/callhierarchy/src/browser/callhierarchy-service.ts#L67">packages/callhierarchy/src/browser/callhierarchy-service.ts:67</a></li>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/callhierarchy/src/browser/callhierarchy-service.ts#L75">packages/callhierarchy/src/browser/callhierarchy-service.ts:75</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>service: <a href="../interfaces/callhierarchy.callhierarchyservice-1.html" class="tsd-signature-type">CallHierarchyService</a></h5>
+									<h5>service: <a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="score" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> score</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">score<span class="tsd-signature-symbol">(</span>service<span class="tsd-signature-symbol">: </span><a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a>, languageId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, uri<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">default</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/callhierarchy/src/browser/callhierarchy-service.ts#L60">packages/callhierarchy/src/browser/callhierarchy-service.ts:60</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>service: <a href="../modules/callhierarchy.html#callhierarchyservice-2" class="tsd-signature-type" data-tsd-kind="Variable">CallHierarchyService</a></h5>
+								</li>
+								<li>
+									<h5>languageId: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>uri: <span class="tsd-signature-type">default</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -217,8 +306,8 @@
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 			<nav class="tsd-navigation primary">
 				<ul>
-					<li class="globals  ">
-						<a href="../globals.html"><em>Globals</em></a>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
 					</li>
 					<li class="current tsd-kind-module">
 						<a href="../modules/callhierarchy.html">callhierarchy</a>
@@ -243,11 +332,20 @@
 					<li class="current tsd-kind-class tsd-parent-kind-module">
 						<a href="callhierarchy.callhierarchyserviceprovider-1.html" class="tsd-kind-icon">Call<wbr>Hierarchy<wbr>Service<wbr>Provider</a>
 						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="callhierarchy.callhierarchyserviceprovider-1.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 								<a href="callhierarchy.callhierarchyserviceprovider-1.html#contributions" class="tsd-kind-icon">contributions</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="callhierarchy.callhierarchyserviceprovider-1.html#ondidchangeemitter" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Emitter</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
 								<a href="callhierarchy.callhierarchyserviceprovider-1.html#services" class="tsd-kind-icon">services</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="callhierarchy.callhierarchyserviceprovider-1.html#ondidchange" class="tsd-kind-icon">on<wbr>Did<wbr>Change</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="callhierarchy.callhierarchyserviceprovider-1.html#add" class="tsd-kind-icon">add</a>
@@ -260,6 +358,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
 								<a href="callhierarchy.callhierarchyserviceprovider-1.html#remove" class="tsd-kind-icon">remove</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="callhierarchy.callhierarchyserviceprovider-1.html#score" class="tsd-kind-icon">score</a>
 							</li>
 						</ul>
 					</li>
@@ -276,7 +377,6 @@
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
 				<li class="tsd-kind-namespace"><span class="tsd-kind-icon">Namespace</span></li>
-				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
 				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
 				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
@@ -286,6 +386,7 @@
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
 				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
@@ -293,14 +394,15 @@
 				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
 			</ul>
 		</div>
 	</div>

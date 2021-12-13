@@ -7,6 +7,7 @@
 	<meta name="description" content="Documentation for Theia TypeDoc">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
 </head>
 <body>
 <header>
@@ -38,8 +39,6 @@
 							</div>
 							<input type="checkbox" id="tsd-filter-inherited" checked />
 							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
-							<input type="checkbox" id="tsd-filter-only-exported" />
-							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
 						</div>
 					</div>
 					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
@@ -51,7 +50,7 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../globals.html">Globals</a>
+					<a href="../modules.html">Theia TypeDoc</a>
 				</li>
 				<li>
 					<a href="core.html">core</a>
@@ -67,99 +66,20 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>A command is a unique identifier of a function
-							which can be executed by a user via a keyboard shortcut,
-						a menu action or directly.</p>
-					</div>
-				</div>
-			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
-						<section class="tsd-index-section ">
-							<h3>Properties</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-namespace"><a href="core.command-1.html#category" class="tsd-kind-icon">category</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-namespace"><a href="core.command-1.html#iconclass" class="tsd-kind-icon">icon<wbr>Class</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-namespace"><a href="core.command-1.html#id" class="tsd-kind-icon">id</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-namespace"><a href="core.command-1.html#label" class="tsd-kind-icon">label</a></li>
-							</ul>
-						</section>
 						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="core.command-1.html#comparecommands" class="tsd-kind-icon">compare<wbr>Commands</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="core.command-1.html#equals" class="tsd-kind-icon">equals</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="core.command-1.html#is" class="tsd-kind-icon">is</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="core.command-1.html#todefaultlocalizedcommand" class="tsd-kind-icon">to<wbr>Default<wbr>Localized<wbr>Command</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-namespace"><a href="core.command-1.html#tolocalizedcommand" class="tsd-kind-icon">to<wbr>Localized<wbr>Command</a></li>
 							</ul>
 						</section>
-					</div>
-				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-namespace">
-					<a name="category" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> category</h3>
-					<div class="tsd-signature tsd-kind-icon">category<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/core/src/common/command.ts#L43">packages/core/src/common/command.ts:43</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>A category of this command.</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-namespace">
-					<a name="iconclass" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> icon<wbr>Class</h3>
-					<div class="tsd-signature tsd-kind-icon">icon<wbr>Class<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/core/src/common/command.ts#L39">packages/core/src/common/command.ts:39</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>An icon class of this command.</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-namespace">
-					<a name="id" class="tsd-anchor"></a>
-					<h3>id</h3>
-					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/core/src/common/command.ts#L31">packages/core/src/common/command.ts:31</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>A unique identifier of this command.</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-namespace">
-					<a name="label" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> label</h3>
-					<div class="tsd-signature tsd-kind-icon">label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/core/src/common/command.ts#L35">packages/core/src/common/command.ts:35</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>A label of this command.</p>
-						</div>
 					</div>
 				</section>
 			</section>
@@ -169,13 +89,13 @@
 					<a name="comparecommands" class="tsd-anchor"></a>
 					<h3>compare<wbr>Commands</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-namespace">
-						<li class="tsd-signature tsd-kind-icon">compare<wbr>Commands<span class="tsd-signature-symbol">(</span>a<span class="tsd-signature-symbol">: </span><a href="core.command-1.html" class="tsd-signature-type">Command</a>, b<span class="tsd-signature-symbol">: </span><a href="core.command-1.html" class="tsd-signature-type">Command</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">compare<wbr>Commands<span class="tsd-signature-symbol">(</span>a<span class="tsd-signature-symbol">: </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a>, b<span class="tsd-signature-symbol">: </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/core/src/common/command.ts#L54">packages/core/src/common/command.ts:54</a></li>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/core/src/common/command.ts#L78">packages/core/src/common/command.ts:78</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -186,10 +106,10 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>a: <a href="core.command-1.html" class="tsd-signature-type">Command</a></h5>
+									<h5>a: <a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></h5>
 								</li>
 								<li>
-									<h5>b: <a href="core.command-1.html" class="tsd-signature-type">Command</a></h5>
+									<h5>b: <a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -200,13 +120,13 @@
 					<a name="equals" class="tsd-anchor"></a>
 					<h3>equals</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-namespace">
-						<li class="tsd-signature tsd-kind-icon">equals<span class="tsd-signature-symbol">(</span>a<span class="tsd-signature-symbol">: </span><a href="core.command-1.html" class="tsd-signature-type">Command</a>, b<span class="tsd-signature-symbol">: </span><a href="core.command-1.html" class="tsd-signature-type">Command</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">equals<span class="tsd-signature-symbol">(</span>a<span class="tsd-signature-symbol">: </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a>, b<span class="tsd-signature-symbol">: </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/core/src/common/command.ts#L70">packages/core/src/common/command.ts:70</a></li>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/core/src/common/command.ts#L94">packages/core/src/common/command.ts:94</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -217,13 +137,13 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>a: <a href="core.command-1.html" class="tsd-signature-type">Command</a></h5>
+									<h5>a: <a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>the first command for comparison.</p>
 									</div>
 								</li>
 								<li>
-									<h5>b: <a href="core.command-1.html" class="tsd-signature-type">Command</a></h5>
+									<h5>b: <a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>the second command for comparison.</p>
 									</div>
@@ -237,22 +157,79 @@
 					<a name="is" class="tsd-anchor"></a>
 					<h3>is</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-namespace">
-						<li class="tsd-signature tsd-kind-icon">is<span class="tsd-signature-symbol">(</span>arg<span class="tsd-signature-symbol">: </span><a href="core.command-1.html" class="tsd-signature-type">Command</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">arg</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">Command</span></li>
+						<li class="tsd-signature tsd-kind-icon">is<span class="tsd-signature-symbol">(</span>arg<span class="tsd-signature-symbol">: </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">arg</span><span class="tsd-signature-symbol"> is </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/334430c824/packages/core/src/common/command.ts#L49">packages/core/src/common/command.ts:49</a></li>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/core/src/common/command.ts#L52">packages/core/src/common/command.ts:52</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>arg: <a href="core.command-1.html" class="tsd-signature-type">Command</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">any</span></h5>
+									<h5>arg: <a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">any</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">arg</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">Command</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">arg</span><span class="tsd-signature-symbol"> is </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-namespace">
+					<a name="todefaultlocalizedcommand" class="tsd-anchor"></a>
+					<h3>to<wbr>Default<wbr>Localized<wbr>Command</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-namespace">
+						<li class="tsd-signature tsd-kind-icon">to<wbr>Default<wbr>Localized<wbr>Command<span class="tsd-signature-symbol">(</span>command<span class="tsd-signature-symbol">: </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/core/src/common/command.ts#L67">packages/core/src/common/command.ts:67</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>command: <a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-namespace">
+					<a name="tolocalizedcommand" class="tsd-anchor"></a>
+					<h3>to<wbr>Localized<wbr>Command</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-namespace">
+						<li class="tsd-signature tsd-kind-icon">to<wbr>Localized<wbr>Command<span class="tsd-signature-symbol">(</span>command<span class="tsd-signature-symbol">: </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a>, nlsLabelKey<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span>, nlsCategoryKey<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/navono/theia/blob/aff706d0a3/packages/core/src/common/command.ts#L57">packages/core/src/common/command.ts:57</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Utility function to easily translate commands</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>command: <a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></h5>
+								</li>
+								<li>
+									<h5>nlsLabelKey: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> nlsCategoryKey: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/core.command-2.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -261,8 +238,8 @@
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 			<nav class="tsd-navigation primary">
 				<ul>
-					<li class="globals  ">
-						<a href="../globals.html"><em>Globals</em></a>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
 					</li>
 					<li class="current tsd-kind-module">
 						<a href="core.html">core</a>
@@ -276,18 +253,6 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-property tsd-parent-kind-namespace">
-						<a href="core.command-1.html#category" class="tsd-kind-icon">category</a>
-					</li>
-					<li class=" tsd-kind-property tsd-parent-kind-namespace">
-						<a href="core.command-1.html#iconclass" class="tsd-kind-icon">icon<wbr>Class</a>
-					</li>
-					<li class=" tsd-kind-property tsd-parent-kind-namespace">
-						<a href="core.command-1.html#id" class="tsd-kind-icon">id</a>
-					</li>
-					<li class=" tsd-kind-property tsd-parent-kind-namespace">
-						<a href="core.command-1.html#label" class="tsd-kind-icon">label</a>
-					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-namespace">
 						<a href="core.command-1.html#comparecommands" class="tsd-kind-icon">compare<wbr>Commands</a>
 					</li>
@@ -296,6 +261,12 @@
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-namespace">
 						<a href="core.command-1.html#is" class="tsd-kind-icon">is</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="core.command-1.html#todefaultlocalizedcommand" class="tsd-kind-icon">to<wbr>Default<wbr>Localized<wbr>Command</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-namespace">
+						<a href="core.command-1.html#tolocalizedcommand" class="tsd-kind-icon">to<wbr>Localized<wbr>Command</a>
 					</li>
 				</ul>
 			</nav>
@@ -308,7 +279,6 @@
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
 				<li class="tsd-kind-namespace"><span class="tsd-kind-icon">Namespace</span></li>
-				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
 				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
 				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
